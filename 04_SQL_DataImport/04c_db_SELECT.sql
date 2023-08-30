@@ -29,6 +29,12 @@ WHERE age >= 30
 */
 
 /* Delete - DS löschen | Vorsicht!! */
-DELETE FROM boo.cats WHERE id = 2; -- Filter
+/* Bitte NIE mit root-Rechten!!! */
+
+#DELETE FROM boo.cats WHERE id = 2; -- Filter
+#DELETE FROM boo.cats; -- Alle Daten sind weg!!
+
+
+DESCRIBE boo.cats;
 
 SELECT * FROM boo.cats;
