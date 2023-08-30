@@ -34,4 +34,4 @@ LINES TERMINATED BY "\n"
 IGNORE 1 ROWS
 ;
 
-SELECT * FROM stocks.ccc LIMIT 5;
+SELECT * FROM stocks.ccc; -- LIMIT 5;
